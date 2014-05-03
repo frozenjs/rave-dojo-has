@@ -1,0 +1,40 @@
+{
+  "name": "rave-dojo-has",
+  "version": "0.0.0",
+  "homepage": "https://github.com/frozenjs/rave-dojo-has",
+  "authors": [
+    "Blaine Bublitz <blaine@iceddev.com>"
+  ],
+  "description": "Adds dojo's has AMD plugin to RaveJS.",
+  "main": "rave.js",
+  "dependencies": {
+    "dojo": "~1.8.3",
+    "rave-amd-plugins": "~0.1.0"
+  },
+  "rave": {
+    "extension": "rave.js",
+    "overrides": {
+      "dojo": {
+        "moduleType": "amd"
+      }
+    }
+  },
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "rave",
+    "rave-extension",
+    "dojo",
+    "amd",
+    "plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
